@@ -65,7 +65,7 @@ const isInViewport = (el) => {
 const getMovies = async () => {
   try {
     loading.value = true
-    const searchValue = route.query.search || 'avatar'
+    const searchValue = route.query.search || 'all'
     const response = await axios.get(
       `http://www.omdbapi.com?s=${searchValue}&page=${page.value}&apikey=9061f0dc`
     )

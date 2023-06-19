@@ -17,7 +17,7 @@
 .hero .hero-image {
   height: 100%;
   width: 100%;
-  object-position: center;
+  object-position: top;
   object-fit: cover;
 }
 
